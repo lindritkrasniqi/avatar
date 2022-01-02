@@ -3,6 +3,7 @@
 namespace lindritkrasniqi\Avatar;
 
 use Illuminate\Database\Eloquent\Model;
+use lindritkrasniqi\Avatar\Events\AvatarDeleted;
 
 class Avatar extends Model
 {
@@ -15,5 +16,14 @@ class Avatar extends Model
         'name',
         'extension',
         'size'
+    ];
+
+    /**
+     * Dispatches Events.
+     *
+     * @var array
+     */
+    protected $dispatchesEvents = [
+        'deleted' => AvatarDeleted::class
     ];
 }
