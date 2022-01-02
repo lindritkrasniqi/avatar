@@ -1,0 +1,15 @@
+{
+    "name": "lindritkrasniqi/avatar",
+    "description": "Avatar package.",
+    "require-dev": {
+        "orchestra/testbench": "^6.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lindrit Krasniqi",
+            "email": "linndritks@gmail.com"
+        }
+    ],
+    "require": {}
+}
