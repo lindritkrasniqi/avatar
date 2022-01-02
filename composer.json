@@ -11,5 +11,23 @@
             "email": "linndritks@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "lindritkrasniqi\\Avatar\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "lindritkrasniqi\\Avatar\\AvatarServiceProvider",
+                "Intervention\\Image\\ImageServiceProvider"
+            ],
+            "aliases": {
+                "Image": "Intervention\\Image\\Facades\\Image"
+            }
+        }
+    }
 }
