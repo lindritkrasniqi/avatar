@@ -1,6 +1,6 @@
 {
     "name": "lindritkrasniqi/avatar",
-    "description": "Avatar package.",
+    "description": "Avatar package for any Laraval 8.x project.",
     "require-dev": {
         "orchestra/testbench": "^6.23"
     },
